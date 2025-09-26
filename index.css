@@ -1,11 +1,23 @@
+
 body{
     background-color: black;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
-    background-color: white;
+    background-color: white; 
+    
+      
 }
 .navbar{
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+    width: 100%;
+    height: 70px;
 }
 .navbar ul{
     background-color: #134686;
@@ -29,30 +41,35 @@ body{
 
 .main{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin-left: 5%;
+    justify-content: space-around;
+    padding: 20px;
 } 
 .Home{
     align-items: center;
     margin-right: 5%;
     
 }
+.content{
+    flex: 2;
+    max-width: 800%;
+    padding: 20px;
+
+}
+.content h1{
+    color: black;
+}
+.content p{
+    color: black;
+}
+
+
  .image{
     width: 300px;
     height: 300px;
     border-radius: 50%;
     margin-top: 5%;
-
-} 
-.content{
-    
-}
-.sentence{
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 10%;
-}
+    } 
 .icons{
     align-items: center;
     margin-left: 5%;
@@ -73,27 +90,195 @@ body{
     margin-left: 5%;
     gap: 4%;
 }
-.about{
-    display: flex;
-    justify-content: center;
-    width: 106%;
-    height: 100%;
-    background-color: #015551;
+.click :hover{
+    background-color: #FFB200;
 
 }
-.classroom{
-    width: 500px;
-    height: 700px;
-    border-radius: 10px;
-    box-shadow: 10%;
-    margin-right: 80%;
-}
-.details{
-    align-items: left;
+
+.image-container {
+    flex: 0;
+    padding-right: 20px;
     
 }
-.paragraph{
-    width: 500px;
+
+.image-container img {
+    width: 400px;
     height: 700px;
-    margin-left: 50%;
+    border-radius: 10px;
+    shape-outside: margin-box;
 }
+
+.text-container {
+    flex: 2;
+    color: #333; 
+    max-width: 800px; 
+}
+
+h1 {
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1em;
+    color: white;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-left: 17%;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+h2:hover{
+    background-color: #FEB21A;
+
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+    .sentence{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+.skills{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px;
+height: 50px;
+background-color:  #015551;
+color: white;
+border-radius: 15px;
+margin-left: 50%;
+}
+/* h3 :hover{
+    background-color: #FEB21A;
+} */
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 102.3%;
+    padding: 20px;
+    background-color: #015551;
+}
+
+.sentence p{
+    
+    color: black;
+    text-align: center;
+    margin-left: 8%;
+    font-size: large;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    gap: 8%;
+    
+}
+.section{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 3%;  
+}
+.services{
+    margin-left: 6%;
+    background-color: #CADCAE
+    
+}
+.services h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 47%;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    background-color:  #015551;
+}
+.services img{
+    width: 250px;
+    height: 220px;
+    padding: 30px;
+    margin-left: 6%;
+}
+.explain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    gap: 200px;
+    margin-right: 5%;
+}
+.projects image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 250px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 47%;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    background-color:  #015551;
+
+}
+h3 :hover{
+    background-color: #FEB21A;
+
+}
+
+#blogs{
+
+}
+
+
+
+
+
+
+
+
