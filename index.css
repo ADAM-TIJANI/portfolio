@@ -1,7 +1,7 @@
-/* Reset default styles */
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -22,6 +22,9 @@ body {
     margin: auto;
     padding: 20px;
 }
+/* .navbar{
+    position: fixed;
+} */
 
 /* Navbar */
 .navbar ul {
@@ -29,8 +32,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
-    background-color: #333;
+    gap: 40px;
+    background-color: #3E1E68;
     padding: 15px;
     border-radius: 8px;
 }
@@ -56,6 +59,9 @@ section {
 }
 
 /* Home Section */
+.Home-section{
+    background-image: linear-gradient(to top right, white, #E6B9DE);
+}
 .Home-section .main {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +73,7 @@ section {
     flex: 1;
 }
 
-.Home-section .content h1 {
+.Home-section .content h2 {
     font-size: 2.5rem;
     color: #0077b6;
     margin-bottom: 15px;
@@ -80,7 +86,8 @@ section {
 
 .Home-section .image {
     width: 250px;
-    border-radius: 10px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 /* Location & Availability */
@@ -134,18 +141,24 @@ section {
     flex-wrap: wrap;
     gap: 30px;
     align-items: center;
+    background-image: linear-gradient(to top right, white, #E6B9DE);
 }
 
 .image-container img {
     width: 200px;
     border-radius: 10px;
+    margin-top: 20%;
 }
 
 .text-container {
     flex: 1;
 }
+.text-container h2{
+    font-size: 1.8rem;
+    margin-right: 24%;
+}
 
-.text-container h1 {
+.text-container h1{
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -158,13 +171,14 @@ section {
 /* Skills Section */
 .Skills-section {
     text-align: center;
+    background-image: linear-gradient(to top right, white, #E6B9DE);
 }
 
 .more-skills {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 60px;
     margin-top: 20px;
 }
 
@@ -184,26 +198,28 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
     margin-top: 20px;
+    background-image: linear-gradient(to top right, white, #E6B9DE);
 }
 
 .service-item {
     text-align: center;
+    background-image: linear-gradient(to top right, white, #DDC3C3);
 }
 
 .service-item img {
-    width: 80px;
-    margin-bottom: 10px;
+    width: 150px;
 }
 
 /* Projects Section */
 .projects-section .project-image {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
     flex-wrap: wrap;
     margin-top: 20px;
+    background-image: linear-gradient(to top right, white, #DDC3C3);
 }
 
 .project-image img {
@@ -222,6 +238,7 @@ section {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    background-image: linear-gradient(to top right, white, #DDC3C3);
 }
 
 .my img {
@@ -234,6 +251,7 @@ section {
     background-color: #f0f0f0;
     border-radius: 10px;
     padding: 30px;
+    background-image: linear-gradient(to top right, white, #3C467B);
 }
 
 .contact-section h3 {
