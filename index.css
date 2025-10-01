@@ -69,6 +69,7 @@ section {
 /* Home Section */
 .Home-section{
     background-image: linear-gradient(to top right, white, #E6B9DE);
+      border-left: 6px solid red;
 }
 .Home-section .main {
     display: flex;
@@ -153,6 +154,7 @@ section {
     gap: 30px;
     align-items: center;
     background-image: linear-gradient(to top right, white, #E6B9DE);
+      border-left: 6px solid red;
 }
 
 .image-container img {
@@ -183,6 +185,7 @@ section {
 .Skills-section {
     text-align: center;
     background-image: linear-gradient(to top right, white, #E6B9DE);
+    border-left: 6px solid red;
 }
 
 .more-skills {
@@ -212,6 +215,7 @@ section {
     gap: 50px;
     margin-top: 20px;
     background-image: linear-gradient(to top right, white, #E6B9DE);
+    border-left: 6px solid red;
 }
 
 .service-item {
@@ -231,6 +235,7 @@ section {
     flex-wrap: wrap;
     margin-top: 20px;
     background-image: linear-gradient(to top right, white, #DDC3C3);
+    border-left: 6px solid red;
 }
 
 .project-image img {
@@ -250,6 +255,7 @@ section {
     gap: 20px;
     flex-wrap: wrap;
     background-image: linear-gradient(to top right, white, #DDC3C3);
+      border-left: 6px solid red;
 }
 
 .my img {
@@ -259,10 +265,11 @@ section {
 
 /* Contact Section */
 .contact-section {
-    background-color: #f0f0f0;
+    background: rbg(30, 212, 232);
     border-radius: 10px;
     padding: 30px;
     background-image: linear-gradient(to top right, #44444E, #000000);
+    opacity: 0.6;
 }
 .contact-section h3{
     font-size: 1.8;
@@ -274,7 +281,7 @@ section {
 .contact-section h5 {
     font-size: 1.1rem;
     margin-bottom: 20px;
-    color: rgb(137, 189, 240);
+    color: rgb(57, 255, 3);
 }
 
 .contact-section form {
@@ -308,7 +315,7 @@ section {
 .contact-section button {
     padding: 10px;
     font-size: 1rem;
-    background-color: #0077b6;
+    background-color: rgb(8, 203, 0);
     color: white;
     border: none;
     border-radius: 6px;
