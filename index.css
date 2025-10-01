@@ -69,8 +69,10 @@ section {
 /* Home Section */
 .Home-section{
     background-image: linear-gradient(to top right, white, #E6B9DE);
-      border-left: 6px solid red;
+    border-left: 6px solid red;
+    border-right: 6px solid rgb(3, 61, 218);
 }
+
 .Home-section .main {
     display: flex;
     flex-wrap: wrap;
@@ -154,8 +156,10 @@ section {
     gap: 30px;
     align-items: center;
     background-image: linear-gradient(to top right, white, #E6B9DE);
-      border-left: 6px solid red;
+    border-left: 6px solid red;
+    border-right: 6px solid rgb(3, 61, 218);
 }
+
 
 .image-container img {
     width: 200px;
@@ -186,7 +190,9 @@ section {
     text-align: center;
     background-image: linear-gradient(to top right, white, #E6B9DE);
     border-left: 6px solid red;
+    border-right: 6px solid rgb(3, 61, 218);
 }
+
 
 .more-skills {
     display: flex;
@@ -216,6 +222,7 @@ section {
     margin-top: 20px;
     background-image: linear-gradient(to top right, white, #E6B9DE);
     border-left: 6px solid red;
+    border-right: 6px solid rgb(3, 61, 218);
 }
 
 .service-item {
@@ -236,7 +243,9 @@ section {
     margin-top: 20px;
     background-image: linear-gradient(to top right, white, #DDC3C3);
     border-left: 6px solid red;
+    border-right: 6px solid rgb(3, 61, 218);
 }
+
 
 .project-image img {
     width: 250px;
@@ -255,8 +264,10 @@ section {
     gap: 20px;
     flex-wrap: wrap;
     background-image: linear-gradient(to top right, white, #DDC3C3);
-      border-left: 6px solid red;
+    border-left: 6px solid red;
+    border-right: 6px solid rgb(3, 61, 218);
 }
+
 
 .my img {
     width: 250px;
